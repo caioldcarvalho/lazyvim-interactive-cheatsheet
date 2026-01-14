@@ -28,7 +28,13 @@ fn main() -> Result<()> {
 
     // Main loop
     while !app.should_quit {
+        // Update animation
+        app.tick();
+
+        // Draw
         terminal.draw(|frame| app.draw(frame))?;
+
+        // Handle input
         app.handle_input()?;
     }
 
