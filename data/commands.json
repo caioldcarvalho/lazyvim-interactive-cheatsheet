@@ -1,0 +1,1376 @@
+[
+  {
+    "keys": "<C-f>",
+    "description": "Page down (Forward)",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-d>",
+    "description": "Move down half page",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-b>",
+    "description": "Page up (Backward)",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-u>",
+    "description": "Move up half page",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-o>",
+    "description": "Jump back",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-i>",
+    "description": "Jump forward",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "gg",
+    "description": "Go to first line",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "G",
+    "description": "Go to last line",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "J",
+    "description": "Join lines",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uC",
+    "description": "Colorscheme with preview",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uD",
+    "description": "Enable code block dimming",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ul",
+    "description": "Toggle line number",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uL",
+    "description": "Toggle relative number",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uw",
+    "description": "Toggle word wrap",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-/>",
+    "description": "Toggle Terminal window",
+    "category": "terminal",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>fb",
+    "description": "List open buffers",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<S-l>",
+    "description": "Next buffer",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<S-h>",
+    "description": "Previous buffer",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "]b",
+    "description": "Next buffer",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "[b",
+    "description": "Previous buffer",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>bd",
+    "description": "Close current buffer",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-w>v",
+    "description": "Split vertical",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-w>s",
+    "description": "Split horizontal",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-w>h",
+    "description": "Navigate to left split",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-w>j",
+    "description": "Navigate to split below",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-w>k",
+    "description": "Navigate to split above",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-w>l",
+    "description": "Navigate to right split",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "viw",
+    "description": "Select inner word",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "vi\"",
+    "description": "Select inner quotes",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "vi{",
+    "description": "Select inner curly braces",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "vip",
+    "description": "Select inner paragraph",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "va[",
+    "description": "Select around brackets",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "dap",
+    "description": "Delete around paragraph",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "zR",
+    "description": "Open all folds",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "zi",
+    "description": "Toggle folding",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "zM",
+    "description": "Close all folds",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "za",
+    "description": "Toggle fold",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "zA",
+    "description": "Toggle all folds under cursor",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "zc",
+    "description": "Close fold",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "zo",
+    "description": "Open fold",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "zO",
+    "description": "Open all folds under cursor",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sm",
+    "description": "View all marks",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>cs",
+    "description": "Document symbols",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "gr",
+    "description": "Find all references",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "gd",
+    "description": "Go to definition",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "gD",
+    "description": "Go to declaration",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "gy",
+    "description": "Go to type definition",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "K",
+    "description": "Show documentation/hover",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "]]",
+    "description": "Next reference",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "[[",
+    "description": "Previous reference",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "]d",
+    "description": "Next diagnostic",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "[d",
+    "description": "Previous diagnostic",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sd",
+    "description": "Document diagnostics",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sD",
+    "description": "Workspace diagnostics",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>cr",
+    "description": "Rename symbol",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>cf",
+    "description": "Format code",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ca",
+    "description": "Code actions",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": ">",
+    "description": "Indent right",
+    "category": "code",
+    "mode": "visual"
+  },
+  {
+    "keys": "<",
+    "description": "Indent left",
+    "category": "code",
+    "mode": "visual"
+  },
+  {
+    "keys": "=",
+    "description": "Auto-indent",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "=ip",
+    "description": "Indent current paragraph",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "gg=G",
+    "description": "Auto-indent entire file",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sr",
+    "description": "Search and replace",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>fc",
+    "description": "Find config files",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ff",
+    "description": "Find files (root dir)",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>/",
+    "description": "Grep (root dir)",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sG",
+    "description": "Grep (CWD)",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ss",
+    "description": "Symbol search",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sc",
+    "description": "Command history",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sw",
+    "description": "Search word under cursor",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sk",
+    "description": "Search all keymaps",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>st",
+    "description": "Search TODO/WARNING comments",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>gc",
+    "description": "Git commit log search",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>gs",
+    "description": "Git status (file search)",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ge",
+    "description": "Git explorer (Neotree)",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>gf",
+    "description": "Current file git history",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>gg",
+    "description": "Open LazyGit",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>e",
+    "description": "Toggle file explorer",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>fe",
+    "description": "File explorer (root dir)",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>fE",
+    "description": "File explorer (cwd)",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>qq",
+    "description": "Quit all",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>fn",
+    "description": "New file",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>xl",
+    "description": "Location list",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>xq",
+    "description": "Quickfix list",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>xt",
+    "description": "Todo list (Trouble)",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>xT",
+    "description": "Todo/Fix/Fixme (Trouble)",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>xx",
+    "description": "Document diagnostics (Trouble)",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>xX",
+    "description": "Workspace diagnostics (Trouble)",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ww",
+    "description": "Other window",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>wd",
+    "description": "Delete window",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>w-",
+    "description": "Split window below",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>w|",
+    "description": "Split window right",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader><tab>l",
+    "description": "Last tab",
+    "category": "tab",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader><tab>f",
+    "description": "First tab",
+    "category": "tab",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader><tab><tab>",
+    "description": "New tab",
+    "category": "tab",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader><tab>]",
+    "description": "Next tab",
+    "category": "tab",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader><tab>d",
+    "description": "Close tab",
+    "category": "tab",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader><tab>[",
+    "description": "Previous tab",
+    "category": "tab",
+    "mode": "normal"
+  },
+  {
+    "keys": "n",
+    "description": "Next search result",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "N",
+    "description": "Previous search result",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "*",
+    "description": "Search word under cursor forward",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "#",
+    "description": "Search word under cursor backward",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "/",
+    "description": "Search forward",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "?",
+    "description": "Search backward",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "u",
+    "description": "Undo",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-r>",
+    "description": "Redo",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": ".",
+    "description": "Repeat last change",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "dd",
+    "description": "Delete line",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "yy",
+    "description": "Yank line",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "p",
+    "description": "Paste after cursor",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "P",
+    "description": "Paste before cursor",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "w",
+    "description": "Move to next word",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "b",
+    "description": "Move to previous word",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "e",
+    "description": "Move to end of word",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "0",
+    "description": "Move to start of line",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "$",
+    "description": "Move to end of line",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "^",
+    "description": "Move to first non-blank char",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "%",
+    "description": "Jump to matching bracket",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "f",
+    "description": "Find char forward",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "F",
+    "description": "Find char backward",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "t",
+    "description": "Till char forward",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "T",
+    "description": "Till char backward",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": ";",
+    "description": "Repeat f/F/t/T forward",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": ",",
+    "description": "Repeat f/F/t/T backward",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "{",
+    "description": "Previous paragraph",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "}",
+    "description": "Next paragraph",
+    "category": "navigation",
+    "mode": "normal"
+  },
+  {
+    "keys": "i",
+    "description": "Insert mode",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "a",
+    "description": "Append after cursor",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "A",
+    "description": "Append at end of line",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "I",
+    "description": "Insert at start of line",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "o",
+    "description": "Open line below",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "O",
+    "description": "Open line above",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "v",
+    "description": "Visual mode",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "V",
+    "description": "Visual line mode",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-v>",
+    "description": "Visual block mode",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "<Esc>",
+    "description": "Exit to normal mode",
+    "category": "general",
+    "mode": "insert"
+  },
+  {
+    "keys": "x",
+    "description": "Delete character",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "r",
+    "description": "Replace character",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "R",
+    "description": "Replace mode",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "c",
+    "description": "Change (delete and insert)",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "C",
+    "description": "Change to end of line",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "D",
+    "description": "Delete to end of line",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "s",
+    "description": "Substitute character",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "S",
+    "description": "Substitute line",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "~",
+    "description": "Toggle case",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "gU",
+    "description": "Uppercase",
+    "category": "general",
+    "mode": "visual"
+  },
+  {
+    "keys": "gu",
+    "description": "Lowercase",
+    "category": "general",
+    "mode": "visual"
+  },
+  {
+    "keys": "<leader>l",
+    "description": "Lazy plugin manager",
+    "category": "plugin",
+    "mode": "normal"
+  },
+  {
+    "keys": "gcc",
+    "description": "Toggle line comment",
+    "category": "code",
+    "mode": "normal"
+  },
+  {
+    "keys": "gc",
+    "description": "Toggle comment",
+    "category": "code",
+    "mode": "visual"
+  },
+  {
+    "keys": "<leader>cd",
+    "description": "Line diagnostics",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>cl",
+    "description": "LSP info",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "gI",
+    "description": "Go to implementation",
+    "category": "lsp",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>fr",
+    "description": "Recent files",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>fR",
+    "description": "Recent files (cwd)",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sg",
+    "description": "Grep (root dir)",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sh",
+    "description": "Help pages",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sH",
+    "description": "Search highlights",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sj",
+    "description": "Jumplist",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sM",
+    "description": "Man pages",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>so",
+    "description": "Options",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sR",
+    "description": "Resume last search",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>sW",
+    "description": "Search word (root dir)",
+    "category": "search",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uT",
+    "description": "Toggle treesitter highlight",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ub",
+    "description": "Toggle background",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uc",
+    "description": "Toggle conceal",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ud",
+    "description": "Toggle diagnostics",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uf",
+    "description": "Toggle auto format (global)",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uF",
+    "description": "Toggle auto format (buffer)",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ug",
+    "description": "Toggle indent guides",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>uh",
+    "description": "Toggle inlay hints",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ui",
+    "description": "Inspect position",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>us",
+    "description": "Toggle spell",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>un",
+    "description": "Dismiss all notifications",
+    "category": "ui",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>gb",
+    "description": "Git blame line",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>gB",
+    "description": "Git browse",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "]h",
+    "description": "Next hunk",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "[h",
+    "description": "Previous hunk",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghp",
+    "description": "Preview hunk",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghs",
+    "description": "Stage hunk",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghr",
+    "description": "Reset hunk",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghS",
+    "description": "Stage buffer",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghu",
+    "description": "Undo stage hunk",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghR",
+    "description": "Reset buffer",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghb",
+    "description": "Blame line",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghd",
+    "description": "Diff this",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ghD",
+    "description": "Diff this ~",
+    "category": "git",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dB",
+    "description": "Breakpoint condition",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>db",
+    "description": "Toggle breakpoint",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dc",
+    "description": "Continue",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dC",
+    "description": "Run to cursor",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dg",
+    "description": "Go to line (no execute)",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>di",
+    "description": "Step into",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dj",
+    "description": "Down",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dk",
+    "description": "Up",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dl",
+    "description": "Run last",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>do",
+    "description": "Step out",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dO",
+    "description": "Step over",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dp",
+    "description": "Pause",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dr",
+    "description": "Toggle REPL",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ds",
+    "description": "Session",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dt",
+    "description": "Terminate",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>dw",
+    "description": "Widgets",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>du",
+    "description": "Debug UI",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>de",
+    "description": "Eval",
+    "category": "debug",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>ft",
+    "description": "Terminal (root dir)",
+    "category": "terminal",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>fT",
+    "description": "Terminal (cwd)",
+    "category": "terminal",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-h>",
+    "description": "Go to left window",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-j>",
+    "description": "Go to lower window",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-k>",
+    "description": "Go to upper window",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-l>",
+    "description": "Go to right window",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-Up>",
+    "description": "Increase window height",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-Down>",
+    "description": "Decrease window height",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-Left>",
+    "description": "Decrease window width",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<C-Right>",
+    "description": "Increase window width",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>-",
+    "description": "Split window below",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>|",
+    "description": "Split window right",
+    "category": "window",
+    "mode": "normal"
+  },
+  {
+    "keys": "<A-j>",
+    "description": "Move line down",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "<A-k>",
+    "description": "Move line up",
+    "category": "general",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>bb",
+    "description": "Switch to other buffer",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>`",
+    "description": "Switch to other buffer",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>bD",
+    "description": "Delete buffer and window",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>bo",
+    "description": "Delete other buffers",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>bp",
+    "description": "Toggle pin",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>bP",
+    "description": "Delete non-pinned buffers",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>br",
+    "description": "Delete buffers to the right",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "<leader>bl",
+    "description": "Delete buffers to the left",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "H",
+    "description": "Previous buffer",
+    "category": "buffer",
+    "mode": "normal"
+  },
+  {
+    "keys": "L",
+    "description": "Next buffer",
+    "category": "buffer",
+    "mode": "normal"
+  }
+]
