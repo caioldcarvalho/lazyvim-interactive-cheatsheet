@@ -2,21 +2,17 @@
 
 Interactive TUI to search LazyVim keybindings and visualize key sequences on a keyboard layout.
 
-## Features
-- Fuzzy search over keybindings, descriptions, and categories.
-- Keyboard animation showing key sequences frame by frame.
-- Legend view to see all frames at once with color coding.
-- Categories and modes loaded from a JSON file.
-
-## Build
-```bash
-cargo build
-```
-
-## Run
+## Quick start
 ```bash
 cargo run
 ```
+
+## How to use
+1. Start typing to filter keybindings by keys, description, or category.
+2. Use Up/Down (or Tab/Shift-Tab) to move the selection.
+3. Watch the keyboard animation to learn the sequence.
+4. Press Ctrl+V to toggle between Animation and Legend views.
+5. Press Esc to clear the search; Esc again (on empty search) quits.
 
 ## Controls
 - Type to search.
@@ -26,8 +22,8 @@ cargo run
 - Ctrl+C quits.
 - Ctrl+V toggles Animation/Legend view.
 
-## Data Format
-Commands live in `data/commands.json` and are embedded at compile time.
+## Customize the keybindings
+Commands live in `data/commands.json` and are embedded at compile time. Update this file and rebuild to see changes.
 
 Each entry uses this shape:
 ```json
@@ -39,16 +35,10 @@ Each entry uses this shape:
 }
 ```
 
-Supported categories are defined in `src/commands.rs`.
 Modes default to `normal` when omitted.
 
-## Project Layout
-- `src/main.rs`: TUI setup and event loop.
-- `src/ui.rs`: Rendering and input handling.
-- `src/commands.rs`: Command parsing and keyframe generation.
-- `src/keyboard.rs`: Keyboard layout and highlighting.
-- `src/search.rs`: Fuzzy search scoring.
-- `data/commands.json`: Keybinding data source.
-
-## License
-MIT
+## Build (if you don't want `cargo run`)
+```bash
+cargo build
+./target/debug/lazyvim-interactive-cheatsheet
+```
