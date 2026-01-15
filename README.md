@@ -2,6 +2,16 @@
 
 Interactive TUI to search LazyVim keybindings and visualize key sequences on a keyboard layout.
 
+## Demos
+Search and filter keybindings:
+![Search demo](assets/demos/search.gif)
+
+Keyboard animation for a selected command:
+![Keyboard animation demo](assets/demos/keyboard-animation.gif)
+
+Toggle Animation/Legend view:
+![Legend toggle demo](assets/demos/legend-toggle.gif)
+
 ## Quick start
 ```bash
 cargo run
@@ -36,6 +46,10 @@ Each entry uses this shape:
 ```
 
 Modes default to `normal` when omitted.
+
+## Credits
+Cheatsheet data is based on "LazyVim (neovim) Cheat Sheet" by thesujit on Cheatography:
+https://cheatography.com/thesujit/cheat-sheets/lazyvim-neovim/#google_vignette
 
 ## Build (if you don't want `cargo run`)
 ```bash
