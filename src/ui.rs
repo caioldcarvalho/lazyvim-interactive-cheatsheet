@@ -203,12 +203,31 @@ impl App {
     }
 
     fn draw_results_list(&self, frame: &mut Frame, area: Rect) {
-        let items: Vec<ListItem> = self
-            .filtered_results
-            .iter()
-            .enumerate()
-            .take(50)
-            .map(|(i, &cmd_idx)| {
+        let results_count = self.filtered_results.len();
+        let title = format!("Commands ({} results)", results_count);
+        let list_height = area.height.saturating_sub(2) as usize;
+        let mut start = 0usize;
+
+        if list_height > 0 && results_count > list_height {
+            let half = list_height / 2;
+            if self.selected_index > half {
+                start = self.selected_index - half;
+            }
+            let max_start = results_count - list_height;
+            if start > max_start {
+                start = max_start;
+            }
+        }
+
+        let end = if list_height == 0 {
+            start
+        } else {
+            (start + list_height).min(results_count)
+        };
+
+        let items: Vec<ListItem> = (start..end)
+            .map(|i| {
+                let cmd_idx = self.filtered_results[i];
                 let cmd = &self.commands[cmd_idx];
                 let style = if i == self.selected_index {
                     Style::default()
@@ -233,15 +252,14 @@ impl App {
             })
             .collect();
 
-        let results_count = self.filtered_results.len();
-        let title = format!("Commands ({} results)", results_count);
-
         let list = List::new(items)
             .block(Block::default().borders(Borders::ALL).title(title))
             .highlight_style(Style::default().bg(Color::DarkGray));
 
         let mut state = ListState::default();
-        state.select(Some(self.selected_index));
+        if results_count > 0 && list_height > 0 {
+            state.select(Some(self.selected_index.saturating_sub(start)));
+        }
 
         frame.render_stateful_widget(list, area, &mut state);
     }
