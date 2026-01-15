@@ -59,14 +59,6 @@ impl SearchEngine {
         results
     }
 
-    /// Quick filter by category
-    pub fn filter_by_category<'a>(&self, commands: &'a [Command], category: &str) -> Vec<&'a Command> {
-        let cat_lower = category.to_lowercase();
-        commands
-            .iter()
-            .filter(|cmd| cmd.category.as_str().to_lowercase() == cat_lower)
-            .collect()
-    }
 }
 
 #[cfg(test)]
@@ -142,12 +134,4 @@ mod tests {
         assert_eq!(results.len(), commands.len());
     }
 
-    #[test]
-    fn test_filter_by_category() {
-        let engine = SearchEngine::new();
-        let commands = sample_commands();
-
-        let results = engine.filter_by_category(&commands, "search");
-        assert_eq!(results.len(), 2);
-    }
 }

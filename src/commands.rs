@@ -20,14 +20,6 @@ pub enum Mode {
 }
 
 impl Mode {
-    pub fn as_str(&self) -> &'static str {
-        match self {
-            Mode::Normal => "Normal",
-            Mode::Insert => "Insert",
-            Mode::Visual => "Visual",
-            Mode::Command => "Command",
-        }
-    }
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
@@ -65,24 +57,6 @@ impl Category {
             Category::Ui => "UI",
             Category::Plugin => "Plugin",
         }
-    }
-
-    pub fn all() -> &'static [Category] {
-        &[
-            Category::General,
-            Category::Navigation,
-            Category::Search,
-            Category::Lsp,
-            Category::Git,
-            Category::Buffer,
-            Category::Window,
-            Category::Tab,
-            Category::Code,
-            Category::Debug,
-            Category::Terminal,
-            Category::Ui,
-            Category::Plugin,
-        ]
     }
 }
 

@@ -27,13 +27,6 @@ impl ViewMode {
             ViewMode::Legend => ViewMode::Animation,
         };
     }
-
-    pub fn as_str(&self) -> &'static str {
-        match self {
-            ViewMode::Animation => "Animation",
-            ViewMode::Legend => "Legend",
-        }
-    }
 }
 
 pub struct App {
