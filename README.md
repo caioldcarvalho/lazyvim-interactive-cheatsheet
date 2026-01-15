@@ -2,6 +2,8 @@
 
 Interactive TUI to search LazyVim keybindings and visualize key sequences on a keyboard layout.
 
+Built with the `ratatui` framework.
+
 ## Demos
 Search and filter keybindings:
 ![Search demo](assets/demos/search.gif)
@@ -33,7 +35,7 @@ cargo run
 - Ctrl+V toggles Animation/Legend view.
 
 ## Customize the keybindings
-Commands live in `data/commands.json` and are embedded at compile time. Update this file and rebuild to see changes.
+Commands live in `data/commands.json` and are embedded at compile time. If you build from source, update this file and rebuild to see changes.
 
 Each entry uses this shape:
 ```json
@@ -47,9 +49,17 @@ Each entry uses this shape:
 
 Modes default to `normal` when omitted.
 
+## Future work
+- User-defined command list (external file or plugin config).
+- LazyVim plugin for easier integration.
+- More keyboard layouts (ABNT2, AZERTY, QWERTZ).
+
 ## Credits
 Cheatsheet data is based on "LazyVim (neovim) Cheat Sheet" by thesujit on Cheatography:
 https://cheatography.com/thesujit/cheat-sheets/lazyvim-neovim/#google_vignette
+
+## Author
+Caio Lopes de Carvalho — caioldcarvalho@protonmail.com
 
 ## Build (if you don't want `cargo run`)
 ```bash
