@@ -30,7 +30,7 @@ LazyVim has hundreds of keybindings. Instead of constantly checking documentatio
 
 ## 📝 License
 
-[Add license type]
+MIT
 
 ## 👤 Author
 
