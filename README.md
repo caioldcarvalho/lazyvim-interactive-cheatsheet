@@ -11,13 +11,13 @@ Provides a searchable, interactive reference for LazyVim shortcuts and commands 
 ## 🎬 Demos
 
 Search and filter keybindings:
-\![Search demo](assets/demos/search.gif)
+![Search demo](assets/demos/search.gif)
 
 Keyboard animation for a selected command:
-\![Keyboard animation demo](assets/demos/keyboard-animation.gif)
+![Keyboard animation demo](assets/demos/keyboard-animation.gif)
 
 Toggle Animation/Legend view:
-\![Legend toggle demo](assets/demos/legend-toggle.gif)
+![Legend toggle demo](assets/demos/legend-toggle.gif)
 
 ## 🛠️ Tech Stack
 
